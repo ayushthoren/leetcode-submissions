@@ -4,4 +4,3 @@ class Solution:
         for i in range(len(haystack)-(ln-1)):
             if haystack[i:i+ln]==needle: return i
         return -1
-        
